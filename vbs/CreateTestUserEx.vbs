@@ -1,4 +1,4 @@
-'***INSTRUCTIONS***
+'***INSTRUCTIONS*** same as CreateTestUser with added functionality to decide user settings template "Default settings" line 33
 '1. Change line 14 and 15 to your admin username and password
 '2. change line 20 to your site name
 '3. change "username" and "password" on line 32 to desired username/pw
@@ -11,8 +11,8 @@ Set SFTPServer = WScript.CreateObject("SFTPCOMInterface.CIServer")
 CRLF = (Chr(13)& Chr(10))
 txtServer = "localhost"
 txtPort =  "1100"
-txtAdminUserName = "Admin123"
-txtPassword = "Admin123!!!"
+txtAdminUserName = "Admin"
+txtPassword = "AdminPW"
 
 If Not Connect(txtServer, txtPort, txtAdminUserName, txtPassword) Then
   WScript.Quit(0)
