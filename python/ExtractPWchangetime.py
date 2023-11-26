@@ -1,8 +1,10 @@
+#exports username and date for when the password was last changed to a csv, can also print values on screen
 import sqlite3
 import ast
 from time import strftime, localtime
 import csv
 
+#location of your site.db file
 db = "C:\EFT\Site db\SiteConfig.402cba8a-841a-4343-adfa-7d385bdaa8db.db"
 
 query = """
@@ -21,10 +23,9 @@ for record in records:
     epoch_time = stats["PasswordChangedTime"]
     password_changed_time = strftime('%H:%M:%S %m-%d-%Y', localtime(epoch_time))
     # print(f"{name} Last Changed Password: {password_changed_time}")
-
-    #Everything below is for exporting the Name and Change time to a csv
-    #for print only uncomment line 22 and comment below
+    #for print uncomment line 25
     
+    #Everything below is for exporting the Name and Change time to a csv
     pw_dict = {}
     pw_dict["Name"] = name
     pw_dict["Password Changed Time"] = password_changed_time
