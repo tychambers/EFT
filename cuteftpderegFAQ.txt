@@ -1,1 +1,0 @@
-cuteftp dereg is only for manually registered cuteftp. Regular cuteftp registration info is located in value.dat
