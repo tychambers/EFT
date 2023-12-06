@@ -10,7 +10,7 @@ $password = "Admin123!!!"
 $site = "MySite"
 #2. Copy/Paste this file to desktop
 #3. Right click run with powershell
-#4. Will export file to the desktop
+#4. Will export text file to the desktop
 
 #######################################################################################
 
