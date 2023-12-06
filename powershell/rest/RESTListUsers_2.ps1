@@ -13,6 +13,8 @@ $site = "MySite"
 #4. Will export file to the desktop
 
 #######################################################################################
+
+#exports CSV to this location
 $file_name = $site + "_ListUserInfo.csv"
 
 # Only to ignore certificates errors
