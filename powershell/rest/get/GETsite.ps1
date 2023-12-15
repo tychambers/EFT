@@ -9,9 +9,6 @@ $site = "MySite"
 
 #######################################################################################
 
-#exports CSV to this location
-$file_name = $site + "_ListUserInfo.csv"
-
 # Only to ignore certificates errors
 add-type @"
     using System.Net;
