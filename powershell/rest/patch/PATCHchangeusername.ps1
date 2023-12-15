@@ -61,7 +61,7 @@ $userID = $userList.data[$id1].id
 $update =
 "{
     'data': {
-        'type': 'eventRule',
+        'type': 'user',
         'attributes': {
             'loginName': '$newusername'
         }
