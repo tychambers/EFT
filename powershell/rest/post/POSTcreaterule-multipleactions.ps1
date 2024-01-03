@@ -55,7 +55,7 @@ $update =
           "Description": "Execute a specified action one time or repeat at a specified interval.",
           "Enabled": false,
           "Folder": "00000000-0000-0000-0000-000000000000",
-          "Name": "AWS Bucket Upload1",
+          "Name": "test rule",
           "Next": "446aa15c-e2bb-4514-ae91-8cef45518621",
           "Remote": false,
           "Type": "Timer",
