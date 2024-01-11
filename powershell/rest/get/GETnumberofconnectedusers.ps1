@@ -1,4 +1,5 @@
-﻿#get site
+﻿#get the number of currently connected users
+#if using SSL switch http to https
 
 ######################################################################################
 
