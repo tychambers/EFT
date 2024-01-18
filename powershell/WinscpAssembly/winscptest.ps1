@@ -1,4 +1,5 @@
-﻿try
+#script to perform automated file transfers using Winscp, refer to help doc
+ try
 {
     # Load WinSCP .NET assembly
     Add-Type -Path "C:\Users\tchambers\Desktop\Scripts\winscp_dll\WinSCP-6.1.2-Automation\WinSCPnet.dll"
