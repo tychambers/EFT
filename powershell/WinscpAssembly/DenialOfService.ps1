@@ -1,4 +1,4 @@
-﻿
+#performs 20 rapid connections using winscp assembly﻿
     # Load WinSCP .NET assembly
     Add-Type -Path "C:\Users\tchambers\Desktop\Scripts\winscp_dll\WinSCP-6.1.2-Automation\WinSCPnet.dll"
  
