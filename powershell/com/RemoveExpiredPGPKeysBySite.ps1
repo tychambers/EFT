@@ -1,7 +1,8 @@
-﻿## Script by default logs in with windows currently logged on user
+## REMOVES EXPIRED PGP KEYS FROM SITE
+## Script by default logs in with windows currently logged on user
 ## can be changed line 12 to use EFT auth
 ## 
-## specify site name line 11 to resolve site id by site name for use in other scripts
+## specify site name line 11 and other credentials line 7-10 if using EFT login
 
 $EFT = New-Object -ComObject 'SFTPComInterface.CIServer'
 $eftUser = 'Admin'
