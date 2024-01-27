@@ -55,6 +55,4 @@ foreach ($event in $eventrules.data){
 
 $eventruleid = $eventrules.data[$id1].id
 
-$single_eventrule = Invoke-RestMethod -Uri "$baseURL/v2/sites/$siteID/event-rules/$eventruleid" -Method 'DELETE' -Headers $authHeader
-
-Write-Output $single_eventrule.data.attributes.statements.StatementsList | ConvertTo-Json
+$single_eventrule = Invoke-RestMethod -Uri "$baseURL/v2/sites/$siteID/event-rules/$eventruleid" -Method 'DELETE' -Headers $authHeade
