@@ -1,5 +1,4 @@
 ﻿<#
-Stops site
 Uses currently logged on user to log into COM API
 No need to specify EFT admin username or pw
 Specify sitename below
